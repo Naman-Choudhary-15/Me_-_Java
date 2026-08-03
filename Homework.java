@@ -106,5 +106,44 @@ public class Homework {
 
     
 
+    //  Lecture 5
+
+    // QUESTION 1 - 
+    // Print a solid rhombus.
+
+    // int n = 4;
+      
+    //    for(int i=n; i>=1; i--) {
+    //        for(int j=1; j<=i; j++) {
+    //                System.out.print(" ");
+    //        }System.out.println("*****");
+        
+    //    }
+
+
+    // QUESTION 2 -
+    // Print a number pyramid.
+
+    // int n = 5;
+    // int number = 1;
+
+    // for(int i =1;i<=n;i++){
+    //     for(int j=1;j<=n-i;j++){
+    //         System.out.print(" ");
+    //     }
+
+    //     for(int j =1;j<=i;j++) {
+    //         System.out.print(number + " ");
+    //     }
+    //     number++;
+    //     System.out.println();
+    // }
+
+    // QUESTION 3 -
+    // Print a palindromic number pyramid.
+
+
+
+
     }
 }
