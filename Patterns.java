@@ -1,19 +1,19 @@
 public class Patterns {
     public static void main(String[] args) {
 
-    // Rectangle 
-    //     int n = 4;
-    //     int m = 5;
+     // Rectangle 
+    int n = 4;
+    int m = 5;
 
-    //     //outer loop
-    //     for(int i = 1; i <=n; i++){
+        //outer loop
+    for(int i = 1; i <=n; i++){
 
-    //         //inner loop
-    //         for(int j =1; j<=m; j++){
-    //         System.out.print("*");
-    //     }
-    //     System.out.println();
-    // }
+        //inner loop
+        for(int j =1; j<=m; j++){
+            System.out.print("*");
+        }
+        System.out.println();
+    }
 
 
     // Hollow Rectangle
@@ -33,14 +33,14 @@ public class Patterns {
  
     
     //Half Pyramid
-    int n = 5;
+    // int n = 5;
 
-    for (int i = 1; i<=n;i++){
-        for(int j=1;j<=i;j++){
-            System.out.print("*");
-        }
-        System.out.println();
-    }
+    // for (int i = 1; i<=n;i++){
+    //     for(int j=1;j<=i;j++){
+    //         System.out.print("*");
+    //     }
+    //     System.out.println();
+    // }
 
         // ANOTHER METHOD OF HALF PYRAMID
     // for (int i = 1; i<=n;i++){
@@ -53,6 +53,8 @@ public class Patterns {
     //     }System.out.println();
     // } 
 
+        // INVERTED PYRAMID 
+
     // int n = 5;
 
     // for (int i = n; i>=1;i--){
@@ -63,9 +65,9 @@ public class Patterns {
     // }
 
      
-    // INVERTED HALF PYRAMID (180* TURN)
+     // INVERTED HALF PYRAMID (180* TURN)
     
-    // int n =4 ;
+    // int n =5 ;
 
     // for(int i =1; i<=n;i++){
     //     for(int j=1; j<=n-i;j++){
@@ -79,7 +81,7 @@ public class Patterns {
     // }
 
 
-    // Half Pyramid with numbers
+        // Half Pyramid with numbers
     
     // int n = 5;
 
@@ -90,7 +92,7 @@ public class Patterns {
     // }   
 
 
-    // Inverted Half Pyramid with numbers
+        // Inverted Half Pyramid with numbers
 
     // int n = 5;
 
@@ -101,7 +103,7 @@ public class Patterns {
     // }
 
 
-    // Floyd's Triangle 
+        // Floyd's Triangle 
 
     // int n = 5;
     // int number = 1;
@@ -111,11 +113,11 @@ public class Patterns {
     //         System.out.print(number + " ");
     //         number++;
     //     }System.out.println();
-    //     } 
+    // } 
     
 
 
-    // 0-1 TRIANGLE
+        // 0-1 TRIANGLE
 
     // int n = 5;
 
@@ -128,6 +130,7 @@ public class Patterns {
     //         }            
     //     }System.out.println();
     //     } 
+
 
     }
 }
