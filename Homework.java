@@ -80,6 +80,7 @@ public class Homework {
         // }
 
         //QUESTION 2 - 
+
     //     Scanner sc = new Scanner(System.in);
     //     int n = sc.nextInt();
 
@@ -101,8 +102,57 @@ public class Homework {
     // }
 
 
+                // ***MAIN METHOD***
+
+    //     Scanner sc = new Scanner(System.in);
+    //    int input;
+
+
+    //    do {
+    //        int marks = sc.nextInt();
+    //        if(marks >= 90 && marks <= 100) {
+    //            System.out.println("This is Good");
+    //        } else if(marks >= 60 && marks <= 89) {
+    //            System.out.println("This is also Good");
+    //        } else if(marks >= 0 && marks <= 59) {
+    //            System.out.println("This is Good as well");
+    //        } else {
+    //            System.out.println("Invalid");
+    //        }
+
+
+    //        System.out.println("Want to continue ? (yes(1) or no(0))");
+    //        input = sc.nextInt();
+      
+    //    } while(input == 1);
+   
+
     // QUESTION 3 - 
     //  Print if a number is prime or not (Input n from the user). 
+
+    //    Scanner sc = new Scanner(System.in);
+    //    int n = sc.nextInt();
+
+
+    //    boolean isPrime = true;
+    //    for(int i=2; i<=n/2; i++) {
+    //        if(n % i == 0) {
+    //            isPrime = false;
+    //            break;
+    //        }
+    //    }
+
+
+    //    if(isPrime) {
+    //        if(n == 1) {
+    //            System.out.println("This is neither prime not composite");
+    //        } else {
+    //            System.out.println("This is a prime number");
+    //        }
+    //    } else {
+    //        System.out.println("This is not a prime number");
+    //    }
+
 
     
 
@@ -142,8 +192,19 @@ public class Homework {
     // QUESTION 3 -
     // Print a palindromic number pyramid.
 
+    int n = 5;
 
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            System.out.print(j);
+        } 
 
+        for(int j=1;j<=i;j++){
+            System.out.print(j);
+        }    System.out.println();
+    }
+
+    
 
     }
 }
