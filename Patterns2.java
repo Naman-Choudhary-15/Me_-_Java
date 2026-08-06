@@ -40,21 +40,21 @@ public class Patterns2 {
         //     System.out.println();
         // }
 
-        // Print a solid rhombus.
+        // ***Print a solid rhombus.
         
-        //Main Method
+        //**Main Method**
 
-        int n=5;
-        for(int i=1;i<=n;i++){
-            for(int j=1;j<=n-i;j++){
-                System.out.print(" ");
-            }
-            for(int j=1;j<=n;j++){
-                System.out.print("*");
-            }System.out.println();
-        }
+        // int n=5;
+        // for(int i=1;i<=n;i++){
+        //     for(int j=1;j<=n-i;j++){
+        //         System.out.print(" ");
+        //     }
+        //     for(int j=1;j<=n;j++){
+        //         System.out.print("*");
+        //     }System.out.println();
+        // }
 
-
+        // easy method
 
     // int n = 4;
       
@@ -62,12 +62,28 @@ public class Patterns2 {
     //        for(int j=1; j<=i; j++) {
     //                System.out.print(" ");
     //        }System.out.println("*****");
-        
     //    }
 
 
+    // ***Number Pyramid
+
+    // int n = 5;
+    // int number = 1;
+
+    // for(int i =1;i<=n;i++){
+    //     for(int j=1;j<=n-i;j++){
+    //         System.out.print(" ");
+    //     }
+
+    //     for(int j =1;j<=i;j++) {
+    //         System.out.print(number + " ");
+    //     }
+    //     number++;
+    //     System.out.println();
+    // }
 
 
+    //*** Palindromic Pattern
 
     }
 }
