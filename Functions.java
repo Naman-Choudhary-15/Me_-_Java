@@ -23,20 +23,39 @@ public class Functions {
     
    //**Sum to two numbers
 
-   public static int calculateSum(int a, int b){
-    int sum = a + b;
-    return sum;
-   }
-   public static void main(String[] args){
+//    public static int calculateSum(int a, int b){
+//     int sum = a + b;
+//     return sum;
+//    }
+//    public static void main(String[] args){
 
-    Scanner sc = new Scanner(System.in);
-    int a = sc.nextInt();
-    int b = sc.nextInt();
+//     Scanner sc = new Scanner(System.in);
+//     int a = sc.nextInt();
+//     int b = sc.nextInt();
 
-    int sum = calculateSum(a, b);
-    System.out.println("Sum of two these numbers are: " + sum);
+//     int sum = calculateSum(a, b);
+//     System.out.println("Sum of two these numbers are: " + sum);
 
-   }
+//    }
+
+
+       //**Product of two numbers
+
+       public static int product(int a, int b){
+        int pro= a*b;
+        return pro;
+       }
+
+       public static void main(String[] args){
+
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        int pro = product(a, b);
+        System.out.println("Product of these two numbers is: " + pro);
+       }
+
 
 
 }
