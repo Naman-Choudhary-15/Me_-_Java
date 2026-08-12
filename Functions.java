@@ -59,27 +59,27 @@ public class Functions {
 
     //**Factorial of a number
 
-       public static void printFactorial(int n){
+    //    public static void printFactorial(int n){
        
-        int Factorial =1;
+    //     int Factorial =1;
 
-        if(n<0){
-            System.out.println("Invalid Number");
-            return;
-        }
-        for(int i=n;i>=1;i--){
-            Factorial = Factorial * i;
-        }
-        System.out.println(Factorial);
-       }
+    //     if(n<0){
+    //         System.out.println("Invalid Number");
+    //         return;
+    //     }
+    //     for(int i=n;i>=1;i--){
+    //         Factorial = Factorial * i;
+    //     }
+    //     System.out.println(Factorial);
+    //    }
 
-       public static void main(String[] args){
+    //    public static void main(String[] args){
 
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+    //     Scanner sc = new Scanner(System.in);
+    //     int n = sc.nextInt();
         
-        printFactorial(n);
-       }
+    //     printFactorial(n);
+    //    }
 
 
 
