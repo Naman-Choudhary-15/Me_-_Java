@@ -292,7 +292,7 @@ public class Homework {
     // }
 
 
-    // Print Inverted Half Pyramid
+    Print Inverted Half Pyramid
 
     int n=5;
     
