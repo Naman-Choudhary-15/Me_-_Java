@@ -307,7 +307,11 @@ public class Homework {
 
     
 
-    
+    // Make a function to check if a number is prime or not.
+    // Make a function to check if a given number n is even or not.
+    // Make a function to print the table of a given number n.
+    // Read about Recursion.
+
     
 
     }
