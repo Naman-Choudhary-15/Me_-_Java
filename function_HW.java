@@ -4,6 +4,8 @@ public class function_HW {
 
     // Make a function to check if a number is prime or not.
 
+    //wrong code need to check it***
+
     public static void isPrime(int n){
 
         int Prime = n;
@@ -25,6 +27,7 @@ public class function_HW {
         
     isPrime(n);   
     }
+
 
     // Make a function to check if a given number n is even or not.
 
