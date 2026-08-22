@@ -8,16 +8,16 @@ public class function_HW {
 
     public static void isPrime(int n){
 
-        int Prime = n;
+    //     int Prime = n;
 
-        if(n<0){
-            System.out.println(" ! Invalid Number ! ");
-        } else if (n%n==0 || n%1==0) {
-            System.out.println("Prime No.");
-        } else {
-            System.out.println("Not Prime No.");
-        return;
-    }
+    //     if(n<0){
+    //         System.out.println(" ! Invalid Number ! ");
+    //     } else if (n%n==0 || n%1==0) {
+    //         System.out.println("Prime No.");
+    //     } else {
+    //         System.out.println("Not Prime No.");
+    //     return;
+    // }
     }
     
     public static void main(String[] args){
@@ -33,6 +33,7 @@ public class function_HW {
 
 
     
+
 
 
     // Make a function to print the table of a given number n.
