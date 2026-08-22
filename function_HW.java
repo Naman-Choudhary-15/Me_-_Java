@@ -20,6 +20,7 @@ public class function_HW {
     // }
     }
     
+    
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
